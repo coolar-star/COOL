@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/cool_logo_black.png" width="260" alt="COOL Logo">
+  <img src="images/cool_logo_black.PNG" width="260" alt="COOL Logo">
 </p>
 
 # COOL — Character Optimization Option Layer
@@ -249,4 +249,5 @@ loop:
 © 2025 Coolar — Original Creator of the COOL Framework
 
 ---
+
 
