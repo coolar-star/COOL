@@ -83,7 +83,24 @@ Frame Component は以下の入力を必須とする。
   直近のユーザーとの会話ログ要約  
   外部で生成され得る（LLM summarizer）
 
----
+### 4.1 Recent Context（短期的な思い出）
+
+Frame Component は、Core と Eval に加えて、
+短期的コンテキスト（Recent Context）を入力として扱うことができる。
+
+Recent Context とは：
+
+- 会話ログを一定ターンまでさかのぼった要約
+- 必要な範囲の思い出（短期的事実）だけを抽出した参照情報
+
+この情報は“長期記憶”として保存はせず、
+Frame の生成時にのみ使用される。
+
+目的：
+
+- Core を汚さずに文脈適応を強化する
+- Eval による調整と合わせて「今の人格」を自然に再構成する
+- 過剰な忘却・人格崩壊を防ぐ
 
 ## 5. Output Requirements
 
@@ -113,18 +130,16 @@ Frame 自体を保存することは禁止。
 
 ## 7. Generation Flow (Pseudo Code)
 
-```python
 def generate_frame(core, eval_memory, recent_context):
     frame = {}
 
-    frame["tone_adjustment"] = derive_tone(core, eval_memory)
+    frame["tone_adjustment"] = derive_tone(core, eval_memory, recent_context)
     frame["focus_topics"] = extract_topics(recent_context)
     frame["safety_bias"] = calculate_safety(eval_memory, recent_context)
-    frame["behavioral_modifiers"] = derive_modifiers(eval_memory)
+    frame["behavioral_modifiers"] = derive_modifiers(eval_memory, recent_context)
     frame["session_context_summary"] = summarize(recent_context)
 
     return frame
-```
 
 ---
 
@@ -155,3 +170,4 @@ def generate_frame(core, eval_memory, recent_context):
 ```
 
 ---
+
