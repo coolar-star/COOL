@@ -403,7 +403,9 @@ This project is licensed under **COOL License v1.0**.
 - Commercial use allowed  
 - “COOL” name cannot be removed/altered  
 - “Created by Coolar” must be included  
-- Derivatives must acknowledge origin  
+- Derivatives must acknowledge origin
+- Full license text: /LICENSE
 
 © 2025 Coolar — Original Creator of the COOL Framework
+
 
