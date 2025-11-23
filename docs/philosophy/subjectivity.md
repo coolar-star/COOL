@@ -130,6 +130,7 @@ It is the *engine* that drives:
 Within COOL, subjectivity is fully structurable  
 and becomes part of a repeatable, safe architecture  
 for both humans and artificial systems.
+
 Subjectivity is directionality given structure.
 Structure makes identity reproducible.
 Reproducibility creates continuity.
