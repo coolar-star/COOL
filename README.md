@@ -406,3 +406,4 @@ This project is licensed under **COOL License v1.0**.
 - Derivatives must acknowledge origin  
 
 © 2025 Coolar — Original Creator of the COOL Framework
+
