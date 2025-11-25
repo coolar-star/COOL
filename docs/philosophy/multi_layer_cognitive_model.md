@@ -9,8 +9,8 @@ It is **layered**, **directional**, and **reconstructive**.
 
 This model integrates:
 
-- raw sensory prompts (qualia),  
-- subjective patterning (subjectivity),  
+- internally reconstructed representations (Qualia)
+- subjective patterning (Subjectivity) 
 - reconstructive identity architecture (Core / Frame / Eval),  
 - long-cycle memory integration (MOOL),  
 - temporal coherence (time-as-reconstruction),  
