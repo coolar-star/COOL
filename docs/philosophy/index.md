@@ -54,7 +54,7 @@ Provides the philosophical basis for COOL’s non-storage, regeneration-first de
 ---
 
 ## 4. Qualia Model  
-**File:** `qualia.md`  
+**File:** `qualia_model.md`  
 
 Defines qualia as:
 
