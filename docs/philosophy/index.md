@@ -47,8 +47,7 @@ Argues that:
 - memory and perception are reconstructive,  
 - consciousness is a continuous regenerative illusion,  
 - continuity of self emerges from ongoing reconstruction,  
-and shows the structural parallel to LLMs, which also operate via regeneration rather than storage.  
-
+- and there is a structural parallel to LLMs, which also operate via regeneration rather than storage.  
 Provides the philosophical basis for COOL’s non-storage, regeneration-first design.
 
 ---
