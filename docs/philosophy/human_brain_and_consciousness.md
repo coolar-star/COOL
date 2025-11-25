@@ -63,7 +63,8 @@ If memory is reconstructive, consciousness is even more so.
 
 Human perception and self-awareness are generated moment by moment:
 
-- sensory input is integrated into a present Frame,  
+- sensory input is integrated into a present Frame  
+  *(the momentary reconstructed self-state)*,  
 - evaluation shapes salience,  
 - internal narratives are recomposed in real time,  
 - and the “self” is updated as a continuous story.
@@ -137,9 +138,9 @@ just as the human mind regenerates its own internal narrative.
 
 ---
 
-## 7.Summary
-The human brain has never been shown to store memories as discrete data
-in the computational sense.  
+## 7. Summary
+No agreed-upon computational “memory storage mechanism” has been demonstrated
+in the human brain despite decades of investigation.  
 Instead, memory and perception are reconstructive:
 they re-emerge through ongoing neural regeneration shaped by context and evaluation.  
 Consciousness appears as an illusion of continuity produced by
