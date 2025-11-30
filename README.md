@@ -7,6 +7,13 @@
 COOL (Character Optimization Option Layer) is an  
 **external character layer** for LLM-based agents.
 
+In this repository, COOL is always paired with a dedicated memory layer:
+
+- **COOL** = an external **character / personality layer** for LLMs  
+- **MOOL (Memory Optimization Option Layer)** = a **cue-based memory and dream-like offline integration layer**
+
+Together, they form a kind of **Digital Hippocampus** wrapped around an LLM.
+
 It is designed to give a generative model:
 
 - **stable personality**, and  
@@ -18,10 +25,11 @@ COOL lives *outside* the model and provides:
 
 - long-term **core personality** (Core),  
 - contextual **situational modes** (Frames),  
-- a **memory policy** and cue-based reconstruction layer (MOOL).
+- and, together with **MOOL (Memory Optimization Option Layer)**,  
+  a **memory policy and cue-based reconstruction layer**.
 
-Together with MOOL (Memory Optimization Option Layer),  
-COOL forms a kind of **Digital Hippocampus** wrapped around an LLM.
+Together, **COOL + MOOL** form a kind of **Digital Hippocampus**  
+wrapped around an LLM.
 
 This repository also proposes a broader theoretical framework:
 
@@ -37,7 +45,8 @@ COOL / MOOL are the practical layers that implement these ideas.
 ## TL;DR
 
 - **COOL** is an external **Character Layer** for LLM-based agents.  
-- It separates **Core personality**, **situational Frames**, and **Memory policy (MOOL)**  
+- It separates **Core personality**, **situational Frames**,  
+  and a **memory policy layer (MOOL, a cue-based memory and dream-like offline integration layer)**  
   into explicit, versionable configs.  
 - It is based on the **Coolar Hypothesis**:
 
@@ -130,6 +139,7 @@ Instead, it wraps the model with three main elements:
 
 - **MOOL (Memory Optimization Option Layer)**  
   - defines how “cues” are stored, recalled, recombined, and forgotten,  
+    through a **dream-like offline integration process**,  
   - separates **episodic interaction history** from **stable character settings**,  
   - encodes evaluation and feedback back into Core / Frame tendencies over time,  
   - behaves as an **offline integration loop** (sleep-like consolidation and re-weighting).
@@ -152,17 +162,17 @@ Conceptually, you can picture the architecture like this:
 
     LLM (base model)
         ▲
-        │  prompts / configs
+        │ prompts / configs
         │
     Digital Hippocampus
-    ├─ COOL (online identity & behaviour)
-    │    ├─ Core   (long-term identity constraints)
-    │    ├─ Frames (situational modes / roles)
-    │    └─ Eval   (short-term self-assessment & tendencies)
-    └─ MOOL (offline integration)
-         ├─ cue storage & compression
-         ├─ pattern extraction & noise removal
-         └─ safe updates to Core / memory policy
+    ├─ COOL
+    │   ├─ Core   (long-term identity constraints)
+    │   ├─ Frames (situational modes / roles)
+    │   └─ Eval   (short-term self-assessment & tendencies)
+    └─ MOOL
+        ├─ cue storage & compression
+        ├─ pattern extraction & noise removal
+        └─ safe updates to Core / memory policy
 
 - **COOL** focuses on **online behaviour**  
   (“Who am I right now, in this context?”).
@@ -330,7 +340,7 @@ it is the **current reconstruction of identity for this situation**.
 
 ### 3. MOOL (Memory Optimization Option Layer)
 
-Defines **how the agent treats memory**:
+Defines **how the agent treats memory via a dream-like offline process**:
 
 - What counts as a “cue” worth storing?  
 - How are cues compressed?  
@@ -495,8 +505,8 @@ You are allowed to:
   including for commercial use, as long as you:
 
   - keep the **COOL** name,  
-  - clearly state that your work is based on or derived from **COOL**, and  
-  - keep the original creator attribution:
+  - clearly state that your work is based on or derived from **COOL**,  
+  - and keep the original creator attribution:
 
     Created by Coolar — Original Creator of the COOL Framework
 
