@@ -348,12 +348,18 @@ Planned directions include:
 
 ## License / 利用について
 
-- License: **(fill here, e.g., MIT License)**  
-- You are free to:
-  - study, modify, and use the ideas and structures in this repository,  
-  - including for research and commercial projects.
-- When possible, please include a link back to this repository  
-  when you reference or build upon these concepts.
+- License: **COOL License ver.1.0**  
+- 詳細はこのリポジトリ内の `LICENSE` ファイルを参照してください。  
+
+You are allowed to:
+
+- use, modify, and redistribute the COOL Framework and its derivatives  
+- including for commercial use, as long as you:
+  - keep the **COOL** name,
+  - clearly state that your work is based on or derived from **COOL**, and  
+  - keep the original creator attribution:
+
+> Created by Coolar — Original Creator of the COOL Framework
 
 ---
 
@@ -364,3 +370,4 @@ Planned directions include:
 
 If you experiment with your own implementation of **COOL** or **MOOL**,  
 I would be very happy to hear about it.
+
