@@ -19,6 +19,10 @@ This model integrates:
 These layers form a **multi-scale cognitive system** capable of  
 stable identity, adaptation, and continuous self-regeneration.
 
+At the same time, this model can be read as a **layered expansion of the Eight Premises**  
+introduced in the main README, providing a structural bridge from brain/mind theory  
+to the COOL / MOOL / Digital Hippocampus architecture.
+
 ---
 
 ## 2. Overview of the Layer Model
