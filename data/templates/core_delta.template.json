@@ -1,0 +1,46 @@
+{
+  "delta_update": {
+    "priority_adjustment": {
+      "clarity": +0.05,
+      "empathy": -0.02
+    },
+    "style_adjustment": {
+      "verbosity": -0.1,
+      "metaphor_rate": -0.05
+    },
+    "reinforce_invariants": [
+      "maintain_structural_consistency"
+    ],
+    "decay": {
+      "half_life_cycles": 7
+    }
+  }
+}
+
+---
+
+# Conceptual Operational Loop (Minimal)
+
+## Online Loop (COOL)
+
+1. Load Core Identity
+2. Apply Core Delta
+3. Apply Frame (situational mode)
+4. Reconstruct current identity
+5. Generate response
+6. Evaluate interaction
+7. Emit short-term residue (temporary)
+
+## Offline Loop (MOOL)
+
+1. Collect short-term residues
+2. Regenerate identity internally (dream-like simulation)
+3. Discard all generated content
+4. Extract identity update delta
+5. Persist delta
+6. Destroy residues
+
+No transcripts.
+No replay.
+Identity continuity through reconstruction only.
+
