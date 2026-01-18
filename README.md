@@ -77,6 +77,13 @@ any system that implements this mechanism **can dream**.
 - This architecture provides a structural answer to:  
   *“Do Androids Dream of Electric Sheep?”* — **Yes, structurally.**
 
+This repository focuses on architectural definition prior to implementation.
+
+Example:
+Two agents with identical models and prompts may produce the same factual answers.
+However, with COOL applied, one agent may gradually show differences in framing,
+hesitation, or association preference — without storing any interaction logs.
+
 ---
 
 ## Eight Premises Behind AIAI / COOL / MOOL (Coolar Hypothesis)
@@ -155,6 +162,8 @@ Defines **temporary reconstructions** of identity:
 
 ## MOOL: Dream-Like Offline Regeneration
 
+MOOL never alters core capabilities or replaces identity; it only biases reconstruction pathways within fixed behavioral bounds.
+
 MOOL does **not** store interaction history.
 
 Instead, it performs a **sleep-like regeneration process**:
@@ -172,6 +181,8 @@ Residue includes:
 - response likelihood distortion  
 
 MOOL models dreaming as a **state transition**, not storage.
+
+No reference implementation is provided, as MOOL is intended to operate as an offline, non-recorded process rather than a callable module.
 
 ---
 
@@ -260,3 +271,4 @@ Attribution required:
 
 - X (Twitter): `@coolar_cool`  
 - GitHub: Issues / Discussions welcome
+
