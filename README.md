@@ -79,6 +79,8 @@ any system that implements this mechanism **can dream**.
 
 This repository focuses on architectural definition prior to implementation.
 
+This is not an external long-term memory system, nor a retrieval-based architecture.
+
 Example:
 Two agents with identical models and prompts may produce the same factual answers.
 However, with COOL applied, one agent may gradually show differences in framing,
@@ -271,4 +273,5 @@ Attribution required:
 
 - X (Twitter): `@coolar_cool`  
 - GitHub: Issues / Discussions welcome
+
 
