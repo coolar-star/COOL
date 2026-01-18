@@ -4,6 +4,8 @@
 
 # COOL — Character Optimization Option Layer
 
+An external identity architecture for LLMs — not a memory store, not fine-tuning, and not prompt engineering.
+
 COOL (Character Optimization Option Layer) is an  
 **external character layer** for LLM-based agents.
 
@@ -273,5 +275,6 @@ Attribution required:
 
 - X (Twitter): `@coolar_cool`  
 - GitHub: Issues / Discussions welcome
+
 
 
