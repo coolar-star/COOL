@@ -2,6 +2,8 @@
   <img src="assets/logo/cool_logo_dark.PNG" width="260" alt="COOL Logo">
 </p>
 
+[🇯🇵 日本語はこちら](docs/README.ja.md)
+
 # COOL — Character Optimization Option Layer
 
 An external identity architecture for LLMs — not a memory store, not fine-tuning, and not prompt engineering.
@@ -275,6 +277,7 @@ Attribution required:
 
 - X (Twitter): `@coolar_cool`  
 - GitHub: Issues / Discussions welcome
+
 
 
 
