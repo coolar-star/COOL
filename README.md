@@ -282,6 +282,10 @@ Defines **temporary reconstructions** of identity:
 
 ## MOOL: Dream-Like Offline Regeneration
 
+<p align="center">
+  <img src="assets/logo/mool_logo_dark.PNG" width="260" alt="MOOL Logo">
+</p>
+
 MOOL never alters core capabilities or replaces identity; it only biases reconstruction pathways within fixed behavioral bounds.
 
 MOOL does **not** store interaction history.
@@ -391,6 +395,7 @@ Attribution required:
 
 - X (Twitter): `@coolar_cool`  
 - GitHub: Issues / Discussions welcome
+
 
 
 
