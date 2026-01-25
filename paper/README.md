@@ -69,7 +69,7 @@ This paper is positioned as a **theoretical / architectural position paper**.
 
 ## ✉️ Contact
 
-Author: Ryuta Takai  
+Author: Ryuta Takai（Coolar）
 Email: coolcoolar17@gmail.com
 
 ---
