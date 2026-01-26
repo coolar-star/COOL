@@ -1,10 +1,11 @@
 # Beyond Memory Stores  
-## A Regenerative Identity Architecture for Large Language Models
+## A Regenerative Identity Architecture for Long-Lived AI Systems
 
 This repository contains the reference materials and paper artifacts for:
 
 **Beyond Memory Stores:  
-A Regenerative Identity Architecture for Large Language Models**
+A Regenerative Identity Architecture for Long-Lived AI Systems
+**
 
 ---
 
